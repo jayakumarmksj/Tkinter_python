@@ -7,3 +7,14 @@ print("Covid 19 Cases:")
 for k in data:
     print(k,data[k])
  
+""" 
+for states wide data  use this
+
+from covid_india import states
+print(states.getdata())
+
+for specific state wide data  use this
+print(states.getdata('state_name'))
+
+
+"""
